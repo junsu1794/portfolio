@@ -1,0 +1,46 @@
+footer {
+    color: $color-gray-light;
+    background-color: $color-blue-dark;
+    padding: 9rem 7rem 3rem 7rem;
+    display: flex;
+
+    @include mq('sm'){
+        padding: 9rem 2rem 3rem 7rem;
+    }
+
+    .logo-text-footer{
+        width: 25%;
+        font: {
+            size: 4rem;
+            family:'Lato',sans-serif;
+            width: 100;
+        }
+        text-transform: uppercase;
+
+        @include mq('sm'){
+            margin-right: 6rem;
+            font-size: 3rem;
+            width: 20%;
+        }
+    }// .logo-text-footer
+    .copyright {
+        width: 75%;
+        font-size: 1.2rem;
+        @include mq('sm'){
+            width: 60%;
+        }
+        p:ntn-child(1){
+            margin-bottom: 2rem;
+            word-break: break-all;
+            text-align: justify;
+            column: {
+                count:3; // 단갯수
+                gap: 3rem; // 단여백
+                rule-style:dashed; // 구분선의 모양
+                rule-width:1px; // 구분선의 두께
+                rule-color:#888; // 구분선의 색상
+                width: 1rem; // 단의 너비
+            }
+        }
+    }//copyright
+}//footer
