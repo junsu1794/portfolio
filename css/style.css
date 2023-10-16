@@ -72,13 +72,14 @@ header {
 }
 
 .text2 {
-    font-size: 6rem;
+    font-size: 2rem;
     color: #000;
 }
 
 .text3 {
     font-size: 2rem;
 }
+
 
 .content_box {
     gap: 4rem;
@@ -199,6 +200,10 @@ header {
     flex-direction: column;
     gap: 4rem;
 }
+.project_box ul li{
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
 
 .skills {
     width: 100%;
@@ -245,4 +250,11 @@ header {
 }
 .skills_box div{
     font-size: 2.4rem;
+}
+
+/* contact_me */
+.contact_me{
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
 }
