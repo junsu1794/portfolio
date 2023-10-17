@@ -80,11 +80,13 @@ header {
 
 .text3 {
     font-size: 2rem;
+    font-weight: 300;
 }
 
 
 .content_box {
-    gap: 4rem;
+    gap: 3rem;
+    display: flex;
 }
 
 .content_box a {
@@ -99,8 +101,10 @@ header {
     border-radius: 30px;
     background: var(--gradient, linear-gradient(260deg, #9BE15D 5.61%, #00D9A6 93.8%));
     box-shadow: 6px 6px 37px 6px rgba(0, 217, 166, 0.46);
-    font-family: Pretendard;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
+    color: #fff;
+    gap: .5rem;
 }
 
 .box2 {
@@ -110,8 +114,14 @@ header {
     border-radius: 30px;
     background: var(--gradient, linear-gradient(260deg, #9BE15D 5.61%, #00D9A6 93.8%));
     box-shadow: 6px 6px 37px 6px rgba(0, 217, 166, 0.46);
-    font-family: Pretendard;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.6rem;
+    gap: .5rem;
+}
+.box2 img{
+    width: 22px;
+    height: 22px;
+    font-size: 2px;
 }
 
 .content_img div {
@@ -196,7 +206,7 @@ header {
 
 .skills {
     width: 100%;
-    height: 1000px;
+    height: 650px;
     position: relative;
 }
 
@@ -241,14 +251,105 @@ header {
     font-size: 1.6rem;
 }
 
-/* contact_me */
-.contact_me {
-    width: 50%;
-    height: 300px;
-    border: 1px solid black;
+/* skills */
+
+
+.bg_bigbox {
+    width: 96%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
+/* bg_text */
+.bg_text {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
+/* bg_img */
+.bg_img {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* contact_me */
+.contact_me {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_text {
+    width: 1000px;
+    height: 300px;
+    background: #25262a;
+    border-radius: 30px;
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 6rem;
+    height: 300px;
+    align-items: center;
+}
+
+.big {
+    color: white;
+    font-size: 4rem;
+}
+
+.mini {
+    font-size: 1.5rem;
+}
+
+.contact_text {
+    color: white;
+}
+
+.contact_mebox {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 10%;
+    height: 24px;
+    display: inline-flex;
+    padding: 9px 30px;
+    align-items: center;
+    border-radius: 30px;
+    background: var(--gradient, linear-gradient(260deg, #9BE15D 5.61%, #00D9A6 93.8%));
+    justify-content: center;
+    /* btn-shadow */
+    box-shadow: 6px 6px 37px 6px rgba(0, 217, 166, 0.46);
+}
+
+/* footer */
+.footer_box{
+    width: 100%;
+    height: 160px;
+    font-size: 1.4rem;
+    background-color: #25262a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.176px;
+}
 
 /* button */
 
+
+
+/* icon */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
