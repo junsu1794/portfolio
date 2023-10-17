@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = [ "무한한 열정으로","무한한 열정으로","무한한 열정으로","무한한 열정으로"];
+    var dataText = [ "무한한 열정으로"];
+    var autoplay = dataText.autoplay;
     
     // type one text in the typwriter
     // keeps calling itself until the text is finished
