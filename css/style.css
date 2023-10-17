@@ -123,9 +123,13 @@ header {
 .box2 img{
     width: 22px;
     height: 22px;
-
+    color: #fff;
 }
-
+.box1 img{
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
 .content_img div {
     width: 92px;
     height: 92px;
@@ -258,15 +262,15 @@ header {
 
 .bg_bigbox {
     width: 96%;
-    height: 100px;
+    height: 130px;
     display: flex;
     justify-content: center;
+    font-weight: 500;
 }
 
 /* bg_text */
 .bg_text {
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.8rem;
 }
 
 /* bg_img */
@@ -275,6 +279,7 @@ header {
     height: 100px;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 /* contact_me */
@@ -347,12 +352,3 @@ header {
 
 
 
-/* icon */
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  line-height: 30px;
-}
