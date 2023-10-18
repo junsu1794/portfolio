@@ -74,7 +74,7 @@ header {
 }
 
 .text2 {
-    font-size: 2rem;
+    font-size: 38px;
     color: #000;
 }
 
@@ -83,6 +83,9 @@ header {
     font-weight: 300;
 }
 
+.texts ul li{
+    font-size: 16px;
+}
 
 .content_box {
     gap: 2rem;
@@ -107,7 +110,14 @@ header {
     gap: .5rem;
     line-height: 1rem;
 }
-
+.box1 img{
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
+.box1 a{
+    color: #fff;
+}
 .box2 {
     display: inline-flex;
     padding: 9px 30px;
@@ -118,18 +128,14 @@ header {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.6rem;
     gap: .5rem;
-    line-height: 1rem;
+    line-height: 16px;
 }
 .box2 img{
     width: 22px;
     height: 22px;
     color: #fff;
 }
-.box1 img{
-    width: 22px;
-    height: 22px;
-    color: #fff;
-}
+
 .content_img div {
     width: 92px;
     height: 92px;
@@ -171,6 +177,7 @@ header {
     border-radius: 30px;
     box-sizing: border-box;
     text-align: left;
+    line-height: 26px;
 }
 
 .about_box div {
@@ -246,6 +253,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 15px;
 }
 
 .skills_box h2 {
