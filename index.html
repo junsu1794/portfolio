@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -31,20 +31,29 @@
                         <div class='console-underscore' id='console'></div>
                     </div>
                     <div class="text1">- Introducing</div>
-                    <div class="text2">
-                        <h1>무한한 열정으로</h1>
-                    </div>
-                    <div class="text3">코드를 써내려가는 퍼블리셔 김준수입니다.</div>
+                    <div class="content">
+                        <div class="content__container">
+                          <p class="content__container__text">
+                            Balance
+                          </p>
+                          <ul class="content__container__list">
+                            <li class="content__container__list__item">코드와 디자인의</li>
+                            <li class="content__container__list__item">균형을 잃지않는</li>
+                            <li class="content__container__list__item">신입 퍼블리셔</li>
+                            <li class="content__container__list__item">김준수입니다.</li>
+                          </ul>
+                        </div>
+                      </div>
                     <div class="content_box flexbox">
                         <div class="box1">
                             <a href="#">
                                 <i class="fa-regular fa-file"></i>
                             </a>
-                            <a href="#">이력서 보기</a>
+                            <a href="#" class="box1_text">이력서 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://github.com/junsu1794" target="_blank">
+                            <a href="https://github.com/junsu1794" target="_blank" class="box1_text">
                                 깃허브 보기</a>
                         </div>
                     </div>
@@ -101,17 +110,17 @@
                             <a href="#">
                                 <i class="fa-regular fa-share-from-square"></i>
                             </a>
-                            <a href="https://junsu1794.github.io/project1/" target="_blank">사이트 보기</a>
+                            <a href="https://junsu1794.github.io/project1/" target="_blank" class="box1_text">사이트 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://github.com/junsu1794/project1" target="_blank">깃허브 보기</a>
+                            <a href="https://github.com/junsu1794/project1" target="_blank" class="box1_text">깃허브 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#">
                                 <!-- <img src="./images/github.svg" alt=""> -->
                             </a>
-                            <a href="#"></a>
+                            <a href="#" class="box1_text"></a>
                         </div>
                     </div>
                 </div>
@@ -143,18 +152,17 @@
                             <a href="#">
                                 <i class="fa-regular fa-share-from-square"></i>
                             </a>
-                            <a href="https://junsu1794.github.io/project2/" target="_blank">사이트 보기</a>
+                            <a href="https://junsu1794.github.io/project2/" target="_blank" class="box1_text">사이트 보기</a>
                         </div>
                         <div class="box2">
-                            <a href="#"><i
-                                class="fa-brands fa-github"></i></a>
-                            <a href="https://github.com/junsu1794/project2" target="_blank">깃허브 보기</a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/junsu1794/project2" target="_blank" class="box1_text">깃허브 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#">
                                 <!-- <img src="./images/github.svg" alt=""> -->
                             </a>
-                            <a href="#"></a>
+                            <a href="#" class="box1_text"></a>
                         </div>
                     </div>
                 </div>
@@ -178,19 +186,19 @@
                             <a href="#">
                                 <i class="fa-regular fa-share-from-square"></i>
                             </a>
-                            <a href="#">사이트 보기</a>
+                            <a href="#" class="box1_text">사이트 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="#">깃허브 보기</a>
+                            <a href="#" class="box1_text">깃허브 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#">
                                 <!-- <img src="./images/github.svg" alt=""> -->
                             </a>
-                            <a href="#"></a>
+                            <a href="#" class="box1_text"></a>
                         </div>
                     </div>
                 </div>
@@ -220,17 +228,17 @@
                             <a href="#">
                                 <i class="fa-regular fa-share-from-square"></i>
                             </a>
-                            <a href="#">사이트 보기</a>
+                            <a href="#" class="box1_text">사이트 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#"><i class="fa-brands fa-github"></i></a>
-                            <a href="#">깃허브 보기</a>
+                            <a href="#" class="box1_text">깃허브 보기</a>
                         </div>
                         <div class="box2">
                             <a href="#">
                                 <!-- <img src="./images/github.svg" alt=""> -->
                             </a>
-                            <a href="#"></a>
+                            <a href="#" class="box1_text"></a>
                         </div>
                     </div>
                 </div>
@@ -238,47 +246,81 @@
             <div class="skills">
                 <div class="skills_name">- skills</div>
                 <div class="skills_bigbox flexbox">
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>HTML</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>CSS</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Javascript</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Jquery</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>SCSS</div>
+                    <div class="charts flexbox">
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">HTML</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">CSS</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">Javascript</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">jQuery</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">SCSS</div>
+                        </div>
                     </div>
                 </div>
                 <div class="skills_bigbox flexbox">
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Git</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Figma</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Bootstrap</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Photoshop</div>
-                    </div>
-                    <div class="skills_box">
-                        <h2>70</h2>
-                        <div>Illustrator</div>
+                    <div class="charts flexbox">
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">GitHub</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">Figma</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">Bootstrap</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">Photoshop</div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="70">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_text">Illustrator</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -319,7 +361,6 @@
             </div>
         </main>
 
-
         <footer>
             <div class="footer_box">
                 <div>Copyright 2023 Jun su kim All rights reserved.</div>
@@ -327,7 +368,7 @@
         </footer>
     </div>
     <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
-    <script src="text.js"></script>
+    <script src="circle.js" defer></script>
 </body>
 
 </html>
