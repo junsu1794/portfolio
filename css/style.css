@@ -5,10 +5,22 @@
 
 }
 
+#wrap {
+    width: 100%;
+}
+
 html {
     font-size: 62.5%;
 }
 
+
+#lottie {
+    width: 300px;
+    position: absolute;
+    left: 15%;
+    top: 93.5%;
+    
+}
 .project_box ul li {
     list-style: none;
     font-size: 2rem;
@@ -21,7 +33,6 @@ html {
 .container {
     width: 100%;
     max-width: 1600px;
-    height: 837px;
     margin: auto;
     position: relative;
     padding-bottom: 93px;
@@ -253,8 +264,16 @@ header {
     gap: 7rem;
     display: flex;
 }
+.content_box1 {
+    gap: 4rem;
+    display: flex;
+}
 
 .content_box a {
+    text-decoration: none;
+    color: #FFF;
+}
+.content_box1 a {
     text-decoration: none;
     color: #FFF;
 }
@@ -396,7 +415,7 @@ header {
 
 .project {
     width: 100%;
-    height: 950px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,7 +424,7 @@ header {
 
 .project2 {
     width: 100%;
-    height: 500px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,7 +433,7 @@ header {
 
 .project3 {
     width: 100%;
-    height: 911px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -433,7 +452,7 @@ header {
 
 .skills {
     width: 100%;
-    height: 754px;
+    height: 762px;
     position: relative;
 }
 
@@ -485,7 +504,7 @@ header {
 
 .bg_bigbox {
     width: 100%;
-    height: 505px;
+    height: 227px;
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -498,7 +517,7 @@ header {
     flex-direction: column;
     color: #25262a;
     font-weight: 600;
-    line-height: 99px;
+    line-height: 84px;
     text-align: center;
 }
 
@@ -523,32 +542,47 @@ header {
     text-align: center;
     display: flex;
     justify-content: center;
+    
 }
 
 .contact_text {
-    width: 1000px;
-    height: 300px;
+    width: 1596px;
+    height: 350px;
+    /* padding: 50px; */
     border-radius: 50px;
     background: var(--gradient2, linear-gradient(90deg, #9BE15D 19.45%, #00D9A6 108.2%));
-    border-radius: 30px;
 }
 
 .contact_box {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 6rem;
-    height: 300px;
+    flex-direction: row;
+    /* line-height: 6rem; */
+    height: 314px;
     align-items: center;
+    justify-content: center;
+    gap: 15rem;
 }
 
 .big {
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .mini {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 400px;
+}
+.bg_bot{
+    width: 100%;
+}
+.bg_bottext{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 250px;
 }
 
 .contact_text {
@@ -608,10 +642,17 @@ header {
     font-weight: 600;
     color: #00d9a6;
 }
+.chart_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .chart_text {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding: 15px;
+    position: absolute;
+    top: 14rem;
 }
 
 .charts .chart svg {
@@ -662,6 +703,7 @@ header {
 .content {
     height: 100vh;
 }
+
 
 
 /* button */
