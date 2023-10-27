@@ -24,7 +24,7 @@ win.on('scroll', () => {
 });
 
 function pipScroll() {
-	const devices = $('.mockup.pc, .mockup.mobile');
+	const devices = $('.mockup.pc, .mockup.mobile,.mockup mobile2');
 	devices.each(function (i, deviceEl) {
 		let device = $(this);
 		let screen = device.find('.mask>img');
