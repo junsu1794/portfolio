@@ -1,0 +1,226 @@
+                    <div class="item left pa">
+                        <div class="mockup pc">
+                            <div class="mask">
+                                <img src="./images/arko_pc.png" alt="" class="screen" />
+                            </div>
+                            <img src="./images/desktop.png" alt="" class="device" />
+                        </div>
+                        <div class="mockup mobile">
+                            <div class="mask">
+                                <img src="./images/arko_mobile.png" alt="" class="screen" />
+                            </div>
+                            <img src="./images/mobile.png" alt="" class="device" />
+                        </div>
+                    </div>
+                    <div class="item right1 bg1 pa">
+                        <div class="linebox1">
+                            <div class="lineflex1">
+                                <div class="project_line"></div>
+                                <div class="project_line1"></div>
+                                <div class="project_text">Project 1</div>
+                            </div>
+                        </div>
+                        <div class="text2">아르코</div>
+                        <div class="text3">코딩 수업을 배우고 스스로 처음 진행해 본 빙그레 프로젝트 입니다. 와이어 프레임 작업을 <br>진행 후 구조를 파악하고 CSS 와 Javascript 를 적용해서 만들어 본 첫 웹사이트 입니다.</div>
+                        <div class="texts">
+                            <ul>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">기 술 <span>Html, Css, Javascript, Jquery</span></div>
+                                </li>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">매 체 Desktop, Tablet, Mobile</div>
+                                </li>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">기 간 2개월</div>
+                                </li>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">기 여 도 100%</div>
+                                </li>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">호 환 성</div>
+                                    <div class="browser_icon"><span class="chrome"></span><span class="edge"></span><span class="safari"></span><span class="firefox"></span><span class="opera"></span></div>
+                                </li>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">페이지수 Main, Sub</div>
+                                </li>
+                                <li class="li_box">
+                                    <div class="project_line"></div>
+                                    <div class="li_text">특 징 웹 접근성 적용</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="texts">
+                                <div class="texts_line"></div>
+                                <div>기 술</div>
+                                <div>html,css,javascript,jquery</div>
+                            </div> -->
+                        <div class="content_box1">
+                            <div class="box3">
+                                <a href="#">
+                                    <i class="fa-regular fa-share-from-square"></i>
+                                </a>
+                                <a href="https://junsu1794.github.io/project1/" target="_blank" class="box1_text">구현화면</a>
+                            </div>
+                            <div class="box4">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/junsu1794/project1" target="_blank" class="box1_text">깃허브</a>
+                            </div>
+                            <div class="box2">
+                                <a href="#" class="box1_text">기획서</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+            <div class="skills">
+                <div class="skills_bigbox flexbox">
+                    <div class="charts flexbox">
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">HTML</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">CSS</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">Javascript</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">jQuery</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">SCSS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills_bigbox flexbox">
+                    <div class="charts flexbox">
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">GitHub</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">Figma</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">Bootstrap</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">Photoshop</div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <h2 data-num="80">0</h2>
+                            <svg>
+                                <circle cx="110" cy="110" r="100"></circle>
+                            </svg>
+                            <div class="chart_box">
+                                <div class="chart_text">Illustrator</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_bigbox">
+                <div class="bg_img">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="47" viewBox="0 0 27 47" fill="none">
+                            <path d="M17.6303 21.2945C16.32 20.9021 14.9623 20.6995 13.5968 20.6927C11.8578 20.6885 10.1365 21.05 8.5401 21.7547C9.81103 16.9996 12.8636 8.79519 18.949 7.87123C19.225 7.82982 19.4834 7.70743 19.6927 7.51891C19.902 7.33039 20.0532 7.08385 20.128 6.80922L21.4575 1.9501C21.5134 1.74745 21.5261 1.53491 21.4947 1.32683C21.4634 1.11874 21.3887 0.919947 21.2758 0.743849C21.1628 0.567752 21.0142 0.418447 20.84 0.306006C20.6658 0.193565 20.47 0.120602 20.2659 0.0920389C19.815 0.0301017 19.3606 -0.000644507 18.9057 1.02394e-05C11.6035 1.02394e-05 4.3715 7.78748 1.31982 18.9377C-0.475345 25.4763 -1.00047 35.3105 3.41222 41.5013C5.88113 44.9652 9.48407 46.815 14.1192 47H14.176C17.2744 47.0021 20.2686 45.8572 22.6044 43.7773C24.9402 41.6975 26.4594 38.8234 26.8809 35.6872C27.3023 32.551 26.5974 29.3649 24.8967 26.7188C23.196 24.0727 20.6146 22.1457 17.6303 21.2945Z" fill="#00D9A6" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="47" viewBox="0 0 27 47" fill="none">
+                            <path d="M17.6303 21.2945C16.32 20.9021 14.9623 20.6995 13.5968 20.6927C11.8578 20.6885 10.1365 21.05 8.5401 21.7547C9.81103 16.9996 12.8636 8.79519 18.949 7.87123C19.225 7.82982 19.4834 7.70743 19.6927 7.51891C19.902 7.33039 20.0532 7.08385 20.128 6.80922L21.4575 1.9501C21.5134 1.74745 21.5261 1.53491 21.4947 1.32683C21.4634 1.11874 21.3887 0.919947 21.2758 0.743849C21.1628 0.567752 21.0142 0.418447 20.84 0.306006C20.6658 0.193565 20.47 0.120602 20.2659 0.0920389C19.815 0.0301017 19.3606 -0.000644507 18.9057 1.02394e-05C11.6035 1.02394e-05 4.3715 7.78748 1.31982 18.9377C-0.475345 25.4763 -1.00047 35.3105 3.41222 41.5013C5.88113 44.9652 9.48407 46.815 14.1192 47H14.176C17.2744 47.0021 20.2686 45.8572 22.6044 43.7773C24.9402 41.6975 26.4594 38.8234 26.8809 35.6872C27.3023 32.551 26.5974 29.3649 24.8967 26.7188C23.196 24.0727 20.6146 22.1457 17.6303 21.2945Z" fill="#00D9A6" />
+                        </svg>
+                    </div>
+                    <div class="bg_text">
+                        <div>디자인과 코딩의 <span>균형을 잡는</span> <br> <span>퍼블리셔</span> 김준수입니다.</div>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="48" viewBox="0 0 27 48" fill="none">
+                            <path d="M9.3697 22.0289C10.68 21.6365 12.0377 21.4339 13.4032 21.427C15.1422 21.4229 16.8635 21.7844 18.4599 22.4891C17.189 17.7339 14.1364 9.52957 8.05102 8.6056C7.77497 8.56419 7.51661 8.4418 7.30731 8.25328C7.09801 8.06476 6.94678 7.81822 6.87196 7.54359L5.54248 2.68447C5.48661 2.48182 5.47393 2.26929 5.50528 2.0612C5.53664 1.85312 5.6113 1.65432 5.72425 1.47822C5.83718 1.30213 5.98577 1.15282 6.15999 1.04038C6.3342 0.92794 6.52999 0.854977 6.73415 0.826414C7.18497 0.764477 7.63938 0.73373 8.09426 0.734385C15.3965 0.734385 22.6285 8.52185 25.6802 19.6721C27.4753 26.2107 28.0005 36.0449 23.5878 42.2357C21.1189 45.6996 17.5159 47.5494 12.8808 47.7344H12.824C9.72563 47.7364 6.73142 46.5916 4.39562 44.5117C2.05982 42.4318 0.540588 39.5578 0.119141 36.4216C-0.302307 33.2854 0.402569 30.0993 2.10329 27.4532C3.80402 24.8071 6.38543 22.8801 9.3697 22.0289Z" fill="#00D9A6" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="48" viewBox="0 0 27 48" fill="none">
+                            <path d="M9.3697 22.0289C10.68 21.6365 12.0377 21.4339 13.4032 21.427C15.1422 21.4229 16.8635 21.7844 18.4599 22.4891C17.189 17.7339 14.1364 9.52957 8.05102 8.6056C7.77497 8.56419 7.51661 8.4418 7.30731 8.25328C7.09801 8.06476 6.94678 7.81822 6.87196 7.54359L5.54248 2.68447C5.48661 2.48182 5.47393 2.26929 5.50528 2.0612C5.53664 1.85312 5.6113 1.65432 5.72425 1.47822C5.83718 1.30213 5.98577 1.15282 6.15999 1.04038C6.3342 0.92794 6.52999 0.854977 6.73415 0.826414C7.18497 0.764477 7.63938 0.73373 8.09426 0.734385C15.3965 0.734385 22.6285 8.52185 25.6802 19.6721C27.4753 26.2107 28.0005 36.0449 23.5878 42.2357C21.1189 45.6996 17.5159 47.5494 12.8808 47.7344H12.824C9.72563 47.7364 6.73142 46.5916 4.39562 44.5117C2.05982 42.4318 0.540588 39.5578 0.119141 36.4216C-0.302307 33.2854 0.402569 30.0993 2.10329 27.4532C3.80402 24.8071 6.38543 22.8801 9.3697 22.0289Z" fill="#00D9A6" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_bot">
+                <div class="bg_bottext">디자인과 코딩의 적절한 조화를 이룰때 이상적인 웹 페이지를 제작할 수 있습니다.</div>
+            </div>
+            <div class="contact_me pr ">
+                <div class="contact_text">
+                    <div class="contact_box ">
+                        <div id="lottie"></div>
+                        <!-- <div class="big">Contact me!</div> -->
+                        <div class="mini">김준수의 포트폴리오를 봐주셔서 감사합니다! <br> 꾸준히 성장해 나가는 퍼블리셔가 되겠습니다.</div>
+                        <div class="box1">
+                            <a href="#">
+                                <i class="fa-regular fa-file"></i>
+                            </a>
+                            <a href="#">이력서 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>

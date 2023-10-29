@@ -3,8 +3,6 @@ const sections = $('section');
 let speed = Math.floor(win.height() * 0.5);
 let topArr = [];
 let winSCT;
-console.log(sections);
-console.log(sections.offset().top);
 
 sections.each(function (i, o) {
 	const sectionTop = $(o).offset().top;
@@ -24,13 +22,12 @@ win.on('scroll', () => {
 });
 
 function pipScroll() {
-	const devices = $('.mockup.pc, .mockup.mobile,.mockup mobile2');
+	const devices = $('.mockup.pc, .mockup.mobile, .mockup.mobile2');
 	devices.each(function (i, deviceEl) {
 		let device = $(this);
 		let screen = device.find('.mask>img');
 		const mask = device.find('.mask');
 		const hightDifference = screen.innerHeight() - mask.innerHeight();
-		console.log('hightDifference', hightDifference);
 		device.on({
 			mouseenter: function () {
 				screen.stop().animate({ top: -hightDifference }, 1500);
@@ -48,7 +45,7 @@ win.on('resize', function () {
 //ani
 var animation = bodymovin.loadAnimation({
 	container: document.getElementById('lottie',), // Required
-	path: '/ani.json', // Required
+	path: './ani.json', // Required
 	renderer: 'svg', // Required
 	loop: true, // Optional
 	autoplay: true, // Optional
