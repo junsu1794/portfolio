@@ -493,15 +493,13 @@ header .hero-img img {
 }
 
 /* Graphic Design */
-.card{
+.card img{
   width: 810px;
   height: 596px;
-  background:url(/images/card.jpg) center no-repeat;
 }
-.BI{
+.bi img{
   width: 810px;
   height: 596px;
-  background:url(/images/logo.jpg) center no-repeat;
 }
 
 
