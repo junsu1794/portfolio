@@ -588,7 +588,7 @@ footer {
   border-radius: 50px;
   background: var(--gradient2, linear-gradient(90deg, #9BE15D 19.45%, #00D9A6 108.2%));
 }
-#lottie {
+.lottie2 {
   width: 300px;
 }
 .lottie{

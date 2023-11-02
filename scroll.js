@@ -44,7 +44,7 @@ win.on('resize', function () {
 
 //ani
 var animation = bodymovin.loadAnimation({
-	container: document.getElementById('lottie'), // Required
+	container: document.querySelector('.lottie2'), // Required
 	path: './ani.json', // Required
 	renderer: 'svg', // Required
 	loop: true, // Optional
