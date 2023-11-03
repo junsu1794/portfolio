@@ -30,7 +30,7 @@ function pipScroll() {
 		const hightDifference = screen.innerHeight() - mask.innerHeight();
 		device.on({
 			mouseenter: function () {
-				screen.stop().animate({ top: -hightDifference }, 1500);
+				screen.stop().animate({ top: -hightDifference }, hightDifference);
 			},
 			mouseleave: function () {
 				screen.stop().animate({ top: 0 }, 1500);
@@ -43,7 +43,7 @@ win.on('resize', function () {
 });
 
 //ani
-var animation = bodymovin.loadAnimation({
+var animation2 = bodymovin.loadAnimation({
 	container: document.querySelector('.lottie2'), // Required
 	path: './ani.json', // Required
 	renderer: 'svg', // Required
@@ -53,12 +53,10 @@ var animation = bodymovin.loadAnimation({
 
 
 //ani
-var animation = bodymovin.loadAnimation({
+var animation1 = bodymovin.loadAnimation({
 	container: document.querySelector('.lottie'), // Required
 	path: './ani1.json', // Required
 	renderer: 'svg', // Required
 	loop: true, // Optional
 	autoplay: true, // Optional
 })
-
-
