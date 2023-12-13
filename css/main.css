@@ -164,6 +164,42 @@ header .gnb {
 		margin-left: auto;
 	}
 }
+/* 새로 적은 미디어 */
+/* @media (min-width: 1300px) {
+	.aboutme{
+		width: 50%;
+	}
+	.Graphic_box{
+		width: 100%;
+	}
+} */
+@media (min-width: 801px) and (max-width: 1350px) {
+	.aboutme{
+		width: 30%;
+	}
+	.skills_bigbox{
+		width: 50%;
+	}
+	.projects .thumb,.mockup.pc .mask{
+		width: 300px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 800px) {
+	.aboutme{
+		width: 30%;
+	}
+	.skills_bigbox{
+		width: 50%;
+	}
+	.footer{
+		width: 100%;
+	}
+}
+
+
+
+
 
 header ul li a {
 	font-size: 1.8rem;
@@ -368,18 +404,21 @@ header .hero-img img {
 @media (min-width: 901px) {
 	.projects article {
 		height: 60%;
+		
 	}
 }
 
 @media (min-width: 501px) and (max-width: 900px) {
 	.projects article {
 		height: 70%;
+		display: flex;
 	}
 }
 
 @media (max-width: 500px) {
 	.projects article {
 		height: 80%;
+		
 	}
 }
 
@@ -625,19 +664,23 @@ iframe {
 	:root {
 		font-size: 64.5%;
 	}
+	
 }
 
 @media (min-width: 501px) and (max-width: 900px) {
 	:root {
 		font-size: 50.5%;
 	}
+	
 }
+
 
 @media (max-width: 500px) {
 	:root {
 		font-size: 50.5%;
 	}
 }
+
 
 /* Graphic Design */
 .card img {
@@ -751,6 +794,11 @@ footer {
 	border-radius: 50px;
 	background: var(--gradient2, linear-gradient(90deg, #9be15d 19.45%, #00d9a6 108.2%));
 }
+.contact{
+	font-size: 6rem;
+	color: #fff;
+	font-weight: 600;
+}
 
 .lottie2 {
 	width: 300px;
@@ -767,20 +815,22 @@ footer {
 .about_df{
 	display: flex;
 	gap: 8rem;
+	justify-content: center;
 }
 .about_text{
-	margin-left: 80px;
 	font-size: 1.6rem;
 	line-height: 3.2rem;
+	text-align: center;
 }
 .about_text span {
 	font-size: 3rem;
 	color: #00d9a6;
 	font-weight: 500;
+	line-height: 4rem;
 }
 .about_left{
 	margin-top: 4rem;
-	line-height: 4rem;
+	line-height: 3.8rem;
 }
 .about_left div{
 	font-size: 1.6rem;
@@ -792,7 +842,7 @@ footer {
 }
 .about_right{
 	margin-top: 4rem;
-	line-height: 4rem;
+	line-height: 3.8rem;
 }
 .about_right p{
 	font-size: 1.8rem;
