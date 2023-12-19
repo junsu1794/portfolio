@@ -42,21 +42,3 @@ win.on('resize', function () {
 	pipScroll();
 });
 
-//ani
-var animation2 = bodymovin.loadAnimation({
-	container: document.querySelector('.lottie2'), // Required
-	path: './ani.json', // Required
-	renderer: 'svg', // Required
-	loop: true, // Optional
-	autoplay: true, // Optional
-})
-
-
-//ani
-var animation1 = bodymovin.loadAnimation({
-	container: document.querySelector('.lottie'), // Required
-	path: './ani1.json', // Required
-	renderer: 'svg', // Required
-	loop: true, // Optional
-	autoplay: true, // Optional
-})

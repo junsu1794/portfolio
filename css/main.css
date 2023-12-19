@@ -474,10 +474,10 @@ header .hero-img img {
 
 .mockup.pc .mask {
 	width: 85.5rem;
-	height: 60%;
+	height: 56%;
 	overflow: hidden;
 	left: 5%;
-	top: 6%;
+	top: 5.5%;
 }
 
 .mockup.pc .device {
@@ -500,10 +500,10 @@ header .hero-img img {
 
 .mockup.mobile .mask {
 	width: 20.8rem;
-	height: 35.5%;
+	height: 37%;
 	overflow: hidden;
 	left: 7%;
-	top: 9%;
+	top: 8%;
 	border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
 }
 
