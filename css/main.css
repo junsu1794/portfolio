@@ -873,3 +873,8 @@ footer {
 		height: 80%;
 	}
 }
+
+.w3c_box{
+	display: flex;
+	justify-content: center;
+}
