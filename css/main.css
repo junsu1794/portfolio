@@ -155,14 +155,14 @@ header .hero-text:after,
 header .hero-text:before {
 	color: #16a085;
 	font-size: 4rem;
-	line-height: 4rem;
+	line-height: 3.5rem;
 	animation-name: opacity;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
 header .hero-text-1 {
 	display: inline-block;
-	margin-left: 1.6rem;
+	margin-left: 3rem;
 	color: #25262a;
 	font-size: 4rem;
 	font-weight: 900;
@@ -170,8 +170,8 @@ header .hero-text-1 {
 }
 header .hero-text-2 {
 	position: absolute;
-	right: 4rem;
-	top: 2.2rem;
+	right: 6rem;
+	top: 2rem;
 	animation-name: change;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
@@ -627,8 +627,8 @@ footer {
 .about_text span {
 	font-size: 3rem;
 	color: #00d9a6;
-	font-weight: 500;
-	line-height: 4rem;
+	font-weight: 700;
+	line-height: 5rem;
 }
 .about_left {
 	margin-top: 4rem;
@@ -637,7 +637,7 @@ footer {
 .about_left div {
 	font-size: 1.6rem;
 	color: #04e8b2;
-	font-weight: bold;
+	font-weight: 700;
 }
 .about_left p {
 	font-size: 1.8rem;
@@ -652,7 +652,7 @@ footer {
 .about_right div {
 	font-size: 1.6rem;
 	color: #04e8b2;
-	font-weight: bold;
+	font-weight: 700;
 }
 .about_right .about_p {
 	font-size: 1.5rem;
@@ -675,6 +675,8 @@ footer {
 	color: #fff;
 	gap: 3rem;
 }
+
+
 
 
 
@@ -738,6 +740,7 @@ footer {
 		left: 7%;
 		top: 4%;
 	}
+	
 	/* figma */
 	.figma{
 		width: 300px;
