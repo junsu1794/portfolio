@@ -1059,22 +1059,26 @@ iframe {
 	.hero-text {
 		width: 52.4rem;
 	}
+
 	/* header */
 	header .gnb {
 		display: flex;
 		flex-direction: row;
 	}
+	header .hero-text{
+		margin-left: 20rem;
+	}
 	header .hero-text:after{
 		right: 20px;
 	}
 	header .hero-btn{
-		width: 90%;
+		width: 80%;
 		display: flex;
 		flex-direction: row;
 		margin-bottom: 10vw;
 	}
 	.profile img{
-		width: 60%;
+		width: 55%;
 		height: 100%;
 		margin: 0 25% 0 25%;
 	}
@@ -1132,14 +1136,33 @@ iframe {
 		right: -15%;
 	}
 	.projects .desc .desc_list .title{
-		font-size: 1.6rem;
+		font-size: 2rem;
 	}
+	
 	.projects .desc .desc_list .content{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
+		position: absolute;
+		top: 30px;
+		left: 10px;
 	}
 	.projects article {
 		height: 80%;
-		padding-bottom: 90%;
+		padding-bottom: 120%;
+	}
+	.projects .desc .title, .projects .desc .title+p{
+		font-size: 2rem;
+	}
+	.projects .desc .title{
+		font-size: 4rem;
+	}
+	.projects .desc .desc_list>li{
+		display: flex;
+		flex-direction: column;
+		height: 50px;
+		width: 300px;
+	}
+	.projects .desc .desc_list>li:before{
+		top: 25%;
 	}
 
 	/* charts */
