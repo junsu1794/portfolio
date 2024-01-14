@@ -501,7 +501,7 @@ header .hero-img img {
 .projects .desc .desc_list .content {
 	font-size: 1.6rem;
 	text-align: justify;
-	margin-left: 12px;
+	margin-left: 0px;
 }
 
 .projects .desc .desc_list .content i:not(:last-child) {
@@ -797,27 +797,28 @@ iframe {
 	/* mokup */
 	.mockup.pc{
 		top: 10%;
+		left: 10%;
 	}
 	.mockup.pc .device {
 		width: 75%;
 	}
 
 	.mockup.pc .mask {
-		width: 58rem;
-		height: 37.5%;
+		width: 55.8rem;
+		height: 35.5%;
 		left: 3.8%;
 		top: 3.8%;
 	}
 	.mockup.mobile{
 		width: 20%;
 		top: -72%;
-		left: 55%;
+		left: 65%;
 	}
 	.mockup.mobile .mask{
-		width: 15rem;
-		height: 26%;
+		width: 14.5rem;
+		height: 25%;
 		left: 7%;
-		top: 6.5%;
+		top: 6.2%;
 	}
 
 	.projects .desc.left {
@@ -835,7 +836,7 @@ iframe {
 /* figma */
 /* ========================================================= */
 
-.figma {
+/* .figma {
 	position: relative;
 	width: 386px;
 	height: 800px;
@@ -864,7 +865,7 @@ iframe {
 	display: block;
 	width: 361px;
 	height: 738px;
-}
+} */
 
 	/* charts */
 	.charts {
@@ -941,16 +942,22 @@ iframe {
 	}
 
 	.projects.is-animated .right.thumb {
-		right: -10%;
-		top: 100px;
+		right: -17%;
+		top: 150px;
 	}
 
 	.projects.is-animated .left.thumb {
-		top: 100px;
+		top: 80px;
 		left: 5%;
 	}
 	.projects article {
 	height: 200px;
+	}
+	.projects .desc .title{
+		font-size: 4rem;
+	}
+	.projects .desc .title+p{
+		font-size: 2rem;
 	}
 
 	.mockup.pc .mask {
@@ -983,34 +990,24 @@ iframe {
 
 
 	/* figma */
-	.figma {
-		position: relative;
+	 .figma {
 		width: 300px;
 		height: 600px;
-		background: url(../images/teamphone.png) no-repeat;
-		background-size: 100% 100%;
-		overflow: hidden;
-		left: 50%;
-		top: -5%;
-		transform: translateX(-50%);
+		left: 40%;
+		top: -12%;
 	}
-
+ 
 	.crop {
-		overflow: hidden;
 		width: 280px;
-		height: 550px;
-		display: block;
-		position: absolute;
-		content: '';
-		z-index: 8;
-		top: 28px;
+		height: 545px;
+		top: 30px;
 		left: 10px;
-		border-radius: 20px;
 	}
+	
 	iframe {
 		width: 280px;
-		height: 544px;
-	}
+		height: 546px;
+	} 
 
 	/* .charts */
 	.charts {
@@ -1048,7 +1045,7 @@ iframe {
 
 
 /* 모바일 */
-@media (min-width: 320px) and (max-width: 767px) {
+@media  (max-width: 767px) {
 	:root {
 		font-size: 50.5%;
 	}
