@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-
 </head>
 
 <body>
@@ -61,7 +60,7 @@
                             <div class="about_downbox">
                                 <p>저는 코드와 디자인 간의 균형을 잃지 않는 방법을 잘 이해하고 있습니다.</p>
                                 <p>디자인 요소를 고려하며 웹 페이지의 기능과 성능을 향상시키기 위해 향상 최적의 코드를 작성합니다.</p>
-                                효율적인 알고리즘을 사용하여 웹 페이지의 성능을 향상시키고, 웹 페이지의 로딩 속도를 최적화하기 위해 코드를 최소화합니다. 
+                                효율적인 알고리즘을 사용하여 웹 페이지의 성능을 향상시키고, 웹 페이지의 로딩 속도를 최적화하기 위해 코드를 최소화합니다.
                                 <p>또, 웹 표준과 웹 접근성을 준수하여 사용자들이 웹 페이지를 쉽게 이용할 수 있도록 합니다.</p>
                             </div>
                         </div>
@@ -80,12 +79,10 @@
                             <ul class="desc_list">
                                 <li><span class="title">기 술</span><span class="content">HTML, CSS, SCSS, JavaScript,
                                         jQuery</span></li>
-                                <li><span class="title">매 체</span><span class="content">Desktop, Mobile</span>
-                                </li>
                                 <li><span class="title l-2">호 환 성</span><span class="content"><i
-                                    class="fa-brands fa-chrome"></i><i class="fa-brands fa-edge"></i><i
-                                    class="fa-brands fa-safari"></i><i class="fa-brands fa-firefox"></i><i
-                                    class="fa-brands fa-opera"></i></span></li>
+                                            class="fa-brands fa-chrome"></i><i class="fa-brands fa-edge"></i><i
+                                            class="fa-brands fa-safari"></i><i class="fa-brands fa-firefox"></i><i
+                                            class="fa-brands fa-opera"></i></span></li>
                                 <li><span class="title">기 간</span><span class="content">2일</span></li>
                                 <li><span class="title">기여도</span><span class="content">메인페이지 제작 100%</span></li>
                             </ul>
@@ -97,19 +94,25 @@
                         <div class="item thumb pa right">
                             <div class="mockup pc pr">
                                 <div class="mask pa">
-                                    <img src="./images/leaders_pc.png" alt="" class="screen pa">
+                                    <img src="./images/leaders_pc2.png" alt="" class="screen pa">
                                 </div>
-                                <img src="./images/desktop.png" alt="" class="device">
-                            </div>
-                            <div class="mockup mobile pr">
-                                <div class="mask pa">
-                                    <img src="./images/leaders_mobile.png" alt="" class="screen pa">
-                                </div>
-                                <img src="./images/mobile.png" alt="" class="device">
                             </div>
                         </div>
                     </div>
                 </article><!--project -->
+                <button type="button" class="collapsible" onclick="collapse(this);">작업물 상세보기</button>
+                <div class="content_box flexbox">
+                    <div class="code_img">
+                        <img src="./images/project1_fade-in.png" alt="code_img">
+                        <img src="./images/project1_nav.png" alt="code_img">
+                    </div>
+                    <div class="code_box">
+                        코드를 nav, header, main, footer로 구조화 하고 scss로 스타일 작업을 진행하였습니다. <br>
+                        nav에 toggle 버튼을 넣어 숨겨진 메뉴를 보여주고 다시 숨길 수 있게 하였습니다. <br>
+                        main은 section으로 나누었고 핵심 콘텐츠인 모델 소개 부분에 슬라이더 기능도 추가하였습니다. <br>
+                        전체적으로 페이지 요소가 나타날 때 fade in 효과도 추가하였습니다.
+                    </div>
+                </div>
                 <article class="pr">
                     <div class="container pr">
                         <div class="item thumb pa left">
@@ -117,13 +120,6 @@
                                 <div class="mask pa">
                                     <img src="./images/bing.png" alt="" class="screen pa">
                                 </div>
-                                <img src="./images/desktop.png" alt="" class="device">
-                            </div>
-                            <div class="mockup mobile pr">
-                                <div class="mask pa">
-                                    <img src="./images/bing_mobile.png" alt="" class="screen pa">
-                                </div>
-                                <img src="./images/mobile.png" alt="" class="device">
                             </div>
                         </div>
                         <div class="item desc pa right">
@@ -135,14 +131,13 @@
                             <ul class="desc_list">
                                 <li><span class="title">기 술</span><span class="content">HTML, CSS, JavaScript,
                                         jQuery</span></li>
-                                <li><span class="title">매 체</span><span class="content">Desktop, Mobile</span>
-                                </li>
                                 <li><span class="title l-2">호 환 성</span><span class="content"><i
-                                    class="fa-brands fa-chrome"></i><i class="fa-brands fa-edge"></i><i
-                                    class="fa-brands fa-safari"></i><i class="fa-brands fa-firefox"></i><i
-                                    class="fa-brands fa-opera"></i></span></li>
+                                            class="fa-brands fa-chrome"></i><i class="fa-brands fa-edge"></i><i
+                                            class="fa-brands fa-safari"></i><i class="fa-brands fa-firefox"></i><i
+                                            class="fa-brands fa-opera"></i></span></li>
                                 <li><span class="title">기 간</span><span class="content">3주</span></li>
-                                <li><span class="title">기 여 도</span><span class="content">메인페이지 100% 제작 & 웹 접근성 적용과 플러그인 미사용</span></li>
+                                <li><span class="title">기여도</span><span class="content">메인페이지 100% 제작 & 웹 접근성 적용과 플러그인
+                                        미사용</span></li>
                             </ul>
                             <div class="desc-btn">
                                 <a href="https://junsu1794.github.io/project2/" target="_blank" class="button">구현화면</a>
@@ -151,6 +146,16 @@
                         </div>
                     </div>
                 </article><!--project -->
+                <button type="button" class="collapsible" onclick="collapse(this);">작업물 상세보기</button>
+                <div class="content_box flexbox">
+                    <div class="code_img">
+                        <img src="./images/project2_main.png" alt="code_img">
+                        <img src="./images/project2_gnb.png" alt="code_img">
+                    </div>
+                    <div class="code_box">nav 부분의 gnb 메뉴를 2depth로 구현하였고, main을 섹션별로 나누어 전체 구조를 작성하였습니다. <br>
+                        핵심 콘텐츠인 제품 이미지 부분에 슬라이더 기능도 추가하여 동적인 효과를 주었습니다.
+                    </div>
+                </div>
                 <article class="pr">
                     <div class="container pr">
                         <div class="item desc pa left">
@@ -159,11 +164,10 @@
                             <p>일정 관리 캘린더 어플 TIME PLANNER 입니다. <br>스마트폰을 적극 활용하고 일정 관리가 필요한 MZ세대를 위한 어플입니다.</p>
                             <ul class="desc_list">
                                 <li><span class="title">기 술</span><span class="content">Figma</span></li>
-                                <li><span class="title">매 체</span><span class="content">Mobile</span></li>
                                 <li><span class="title l-2">호 환 성</span><span class="content"><i
-                                    class="fa-brands fa-chrome"></i><i class="fa-brands fa-edge"></i><i
-                                    class="fa-brands fa-safari"></i><i class="fa-brands fa-firefox"></i><i
-                                    class="fa-brands fa-opera"></i></span></li>
+                                            class="fa-brands fa-chrome"></i><i class="fa-brands fa-edge"></i><i
+                                            class="fa-brands fa-safari"></i><i class="fa-brands fa-firefox"></i><i
+                                            class="fa-brands fa-opera"></i></span></li>
                                 <li><span class="title">기 간</span><span class="content">3일</span></li>
                                 <li><span class="title">기여도</span><span class="content">100%</span></li>
                             </ul>
@@ -174,30 +178,17 @@
                                     target="_blank" class="button">기획서</a>
                             </div>
                         </div>
-                        <div class="item thumb pa right">
-                            <div class="figma">
-                                <div class="crop">
-                                    <iframe
-                                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FT5sNBvMb98RwLXZOmv6i8f%2FTime-planner%3Fpage-id%3D21%253A10941%26type%3Ddesign%26node-id%3D57-10906%26viewport%3D-1060%252C1374%252C0.53%26t%3D08Vm8IvNiXWva82p-1%26scaling%3Dmin-zoom%26mode%3Ddesign&hide-ui=1"
-                                        allowfullscreen></iframe>
-                                </div>
-                            </div>
+                        <div>
+                            <img src="./images/today.png" alt="" class="figma_img">
                         </div>
                     </div>
                 </article>
-            </section>
-            <!-- <section class="Graphic_Design">
-                <h2 class="section_title pr"><span class="line pa"></span><span class="point">G</span>raphic <span
-                        class="point">D</span>esign</h2>
-                <div class="Graphic_box flexbox">
-                    <div class="card">
-                        <img src="./images/card.jpg" alt="">
-                    </div>
-                    <div class="bi">
-                        <img src="./images/logo.jpg" alt="">
-                    </div>
+                <button type="button" class="collapsible" onclick="collapse(this);">작업물 상세보기</button>
+                <div class="content_box flexbox">
+                    <div class="code_img"><img src="./images/portfoilo_code.png" alt=""></div>
+                    <div class="code_box"></div>
                 </div>
-            </section> -->
+            </section>
             <section class="skills">
                 <h2 class="section_title pr"><span class="line pa"></span>S<span class="point">k</span>ills</h2>
                 <div class="skills_bigbox">
@@ -332,6 +323,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
     <script src="./js/circle.js"></script>
     <script src="./js/scroll.js"></script>
+    <script src="./js/button.js"></script>
 </body>
 
 </html>
