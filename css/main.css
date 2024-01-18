@@ -1188,6 +1188,80 @@ iframe {
 	}
 }
 
+@media (min-width: 500px) {
+	:root {
+		font-size: 50.5%;
+	}
+	.df {
+		display: flex;
+		flex-direction: column;
+	}
+	.profile img{
+		width: 55%;
+		height: 100%;
+		margin: 0 25% 0 25%;
+	}
+	header .gnb{
+		margin-left: 6rem;
+	}
+	header .hero-text{
+		margin-left: 4rem;
+	}
+	header .hero-btn{
+		width: 70%;
+	}
+	.about_text span{
+		font-size: 3.2rem;
+	}
+	.about_downbox{
+		font-size: 2.2rem;
+	}
+	.mockup.pc .mask{
+		width: 28rem;
+	}
+
+	.projects article{
+		padding-bottom: 215%;
+	}
+	.code_img{
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+	}
+	.code_img > img{
+		width: 100%;
+	}
+
+	.charts .chart{
+		margin: 0 8px;
+	}
+	.charts .chart h2{
+		font-size: 3.8rem;
+	}
+	.chart_text{
+		font-size: 1.6rem;
+		padding: 14px;
+		top: 48%;
+	}
+	.charts .chart svg{
+		width: 70px;
+		height: 70px;
+	}
+	.intro_bot{
+		font-size: 2.2rem;
+		text-align: center;
+	}
+	.contact{
+		padding-left: 5px;
+	}
+	.projects .desc .desc-btn{
+		gap: 2rem;
+		display: flex;
+		flex-direction: column;
+		width: 160px;
+		text-align: center;
+	}
+}
 
 @keyframes opacity {
 
