@@ -1188,7 +1188,7 @@ iframe {
 	}
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
 	:root {
 		font-size: 50.5%;
 	}
