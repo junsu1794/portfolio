@@ -96,10 +96,31 @@ a {
 	transition: max-height 0.2s ease-out;
 	background-color: #f1f1f1;
 	width: 85%;
+	height: 600px;
 	margin-left: 7%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.content_box2{
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+	width: 85%;
+	height: 800px;
+	margin-left: 7%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.figma_box{
+	display: flex;
+	justify-content: center;
+	gap: 10%;
 }
 .figma_box > img{
-	width: 40%;
+	width: 30%;
 }
 .today{
 	display: flex;
@@ -117,7 +138,7 @@ a {
 	content:"▲";
 }
 .code_img{
-	width: 40%;
+	width: 50%;
 	display: flex;
 	gap: 5px;
 }
@@ -129,7 +150,7 @@ width: 50%;
 	font-size: 1.6rem;
 	letter-spacing: 0.1px;
 	text-align: center;
-	margin-top:7%;
+	margin-top:1%;
 }
 
 
@@ -765,19 +786,19 @@ footer {
 .figma_img{
 	position: absolute;
 	top: 0px;
-	width: 18%;
+	width: 20%;
 	left: 40%;
 }
 .figma_img2{
 	position: absolute;
 	top: 0px;
-	width: 18%;
+	width: 20%;
 	left: 60%;
 }
 .figma_img3{
 	position: absolute;
 	top: 0px;
-	width: 18%;
+	width: 20%;
 	left: 80%;
 }
 
