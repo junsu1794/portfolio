@@ -99,7 +99,7 @@ a {
 	transition: max-height 0.2s ease-out;
 	background-color: #f9f9f9;
 	width: 85%;
-	height: 1000px;
+	height: 1100px;
 	margin-left: 7%;
 	display: flex;
 	flex-direction: column;
@@ -168,7 +168,7 @@ a {
 	letter-spacing: 0.1px;
 	text-align: center;
 	margin-top: 2.5%;
-	margin-bottom: 30px;
+	margin-bottom: 2.5%;
 }
 
 
