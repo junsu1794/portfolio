@@ -104,6 +104,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-radius: 5px;
 }
 
 .content_box2 {
@@ -166,7 +167,7 @@ a {
 	font-size: 1.8rem;
 	letter-spacing: 0.1px;
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 2.5%;
 	margin-bottom: 30px;
 }
 
@@ -834,9 +835,42 @@ iframe {
 /* media */
 /* ========================================================= */
 
-/* @media (min-width: 1281px) {
-
-} */
+@media (min-width: 1281px) and (max-width:1440px) {
+	:root {
+		font-size: 64.5%;
+	}
+	header .gnb{
+		margin-left: 21.6rem;
+	}
+	.projects article{
+		padding-bottom: 55%;
+	}
+	.projects .desc.left{
+		left: 5%;
+	}
+	.projects.is-animated .right.thumb{
+		right: 5%;
+	}
+	.projects.is-animated .left.thumb {
+		left: 5%;
+	}
+	.projects .desc.right{
+		right: 5%;
+	}
+	.figma_img{
+		left: 35%;
+		top: 50px;
+	}
+	.figma_img2{
+		left: 55%;
+		top: 50px;
+	}
+	.figma_img3{
+		left: 75%;
+		top: 50px;
+	}
+	
+} 
 
 /* 데스크탑 */
 @media (min-width: 1025px) and (max-width: 1280px) {
