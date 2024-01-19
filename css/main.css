@@ -671,6 +671,7 @@ header .hero-img img {
 	justify-content: center;
 	margin-top: 15rem;
 	margin-bottom: 10rem;
+	letter-spacing: 0.1px;
 }
 
 footer {
