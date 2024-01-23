@@ -1,6 +1,5 @@
 :root {
 	font-size: 62.5%;
-	--fa-rotate-angle: 45deg;
 }
 
 .pr {
@@ -14,6 +13,7 @@
 .df {
 	display: flex;
 }
+
 
 .profile img {
 	width: 100%;
